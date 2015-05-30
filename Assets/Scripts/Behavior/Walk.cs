@@ -5,7 +5,7 @@ public class Walk : AbstractBehavior
 {
 
 	public float speed = 45f;
-	public float runMultiplier = 1.5f;
+	public float sprintMultiplier = 1.5f;
 	public bool running = false;
 
 	void Start () 
@@ -25,9 +25,9 @@ public class Walk : AbstractBehavior
 		{
 			var tmpSpeed = speed;
 
-			if(run && runMultiplier > 0)
+			if(run && sprintMultiplier > 0)
 			{
-				tmpSpeed *= runMultiplier;
+				tmpSpeed *= sprintMultiplier;
 				running = true;
 			}
 
