@@ -2,9 +2,9 @@
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Manager\PlayerManager.cs">
     <Files>
-      <File FileName="Assets\Scripts\Manager\PlayerManager.cs" Line="27" Column="31" />
-      <File FileName="Assets\Scripts\Input\InputState.cs" Line="34" Column="10" />
-      <File FileName="Assets\Scripts\Behavior\Walk.cs" Line="31" Column="20" />
+      <File FileName="Assets\Scripts\Behavior\Jump.cs" Line="18" Column="5" />
+      <File FileName="Assets\Scripts\Input\InputState.cs" Line="63" Column="34" />
+      <File FileName="Assets\Scripts\Manager\PlayerManager.cs" Line="36" Column="28" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
