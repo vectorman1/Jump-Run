@@ -47,14 +47,35 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Scripts\Behavior\AbstractBehavior.cs" />
+     <Compile Include="Assets\Scripts\Behavior\Duck.cs" />
+     <Compile Include="Assets\Scripts\Behavior\Equip.cs" />
      <Compile Include="Assets\Scripts\Behavior\FaceDirection.cs" />
+     <Compile Include="Assets\Scripts\Behavior\FireProjectile.cs" />
      <Compile Include="Assets\Scripts\Behavior\Jump.cs" />
+     <Compile Include="Assets\Scripts\Behavior\NewPlayerBehavior\NewJump.cs" />
+     <Compile Include="Assets\Scripts\Behavior\NewPlayerBehavior\NewWalk.cs" />
+     <Compile Include="Assets\Scripts\Behavior\SlidingDown.cs" />
+     <Compile Include="Assets\Scripts\Behavior\StickingTowall.cs" />
      <Compile Include="Assets\Scripts\Behavior\Walk.cs" />
+     <Compile Include="Assets\Scripts\Behavior\WallJump.cs" />
+     <Compile Include="Assets\Scripts\Collision\Colectable.cs" />
      <Compile Include="Assets\Scripts\Collision\CollisionState.cs" />
+     <Compile Include="Assets\Scripts\Effects\DustEffect.cs" />
+     <Compile Include="Assets\Scripts\Gui\ShowText.cs" />
      <Compile Include="Assets\Scripts\Input\InputManager.cs" />
      <Compile Include="Assets\Scripts\Input\InputState.cs" />
+     <Compile Include="Assets\Scripts\Items\FireBall.cs" />
+     <Compile Include="Assets\Scripts\Items\PowerUpFlowerRP.cs" />
+     <Compile Include="Assets\Scripts\Manager\CameraManager.cs" />
+     <Compile Include="Assets\Scripts\Manager\NewPlayerManager.cs" />
      <Compile Include="Assets\Scripts\Manager\PlayerManager.cs" />
+     <None Include="Assets\Sprites\NewPlatformerArtwork\Player\p2_spritesheet.txt" />
+     <None Include="Assets\Sprites\NewPlatformerArtwork\Player\p1_spritesheet.txt" />
+     <None Include="Assets\Sprites\NewPlatformerArtwork\Player\p3_spritesheet.txt" />
      <None Include="Assets\Sfx\SpaceSfx\readme.txt" />
+     <None Include="Assets\Sprites\NewPlatformerArtwork\HUD\hud_spritesheet.txt" />
+     <None Include="Assets\Sprites\NewPlatformerArtwork\Enemies\enemies_spritesheet.txt" />
+     <None Include="Assets\Sprites\NewPlatformerArtwork\tiles_spritesheet.txt" />
      <None Include="Assets\Sfx\Uisfx\readme.txt" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
