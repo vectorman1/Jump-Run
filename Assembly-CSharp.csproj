@@ -65,6 +65,8 @@
      <Compile Include="Assets\Scripts\Input\InputManager.cs" />
      <Compile Include="Assets\Scripts\Input\InputState.cs" />
      <Compile Include="Assets\Scripts\Items\FireBall.cs" />
+     <Compile Include="Assets\Scripts\Items\Key.cs" />
+     <Compile Include="Assets\Scripts\Items\KeyEquip.cs" />
      <Compile Include="Assets\Scripts\Items\PowerUpFlowerRP.cs" />
      <Compile Include="Assets\Scripts\Manager\CameraManager.cs" />
      <Compile Include="Assets\Scripts\Manager\NewPlayerManager.cs" />
