@@ -8,7 +8,8 @@ public enum Buttons
 	Up,
 	Down,
 	A,
-	B
+	B,
+	X
 }
 
 public enum Condition
