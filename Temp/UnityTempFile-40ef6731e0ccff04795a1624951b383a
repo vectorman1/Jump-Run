@@ -69,10 +69,13 @@ Assets/Scripts/Behavior/WallJump.cs
 Assets/Scripts/Collision/Colectable.cs
 Assets/Scripts/Collision/CollisionState.cs
 Assets/Scripts/Effects/DustEffect.cs
+Assets/Scripts/Gui/MainMenuButtonController.cs
 Assets/Scripts/Gui/ShowText.cs
 Assets/Scripts/Input/InputManager.cs
 Assets/Scripts/Input/InputState.cs
 Assets/Scripts/Items/FireBall.cs
+Assets/Scripts/Items/Key.cs
+Assets/Scripts/Items/KeyEquip.cs
 Assets/Scripts/Items/PowerUpFlowerRP.cs
 Assets/Scripts/Manager/CameraManager.cs
 Assets/Scripts/Manager/NewPlayerManager.cs
