@@ -16,7 +16,7 @@ public class DoorController : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-        if (this.gameObject.transform.position.x > 230 && this.gameObject.transform.position.x < 365 && Input.GetKeyDown("return"))
+        if (this.gameObject.transform.position.x > 230 && this.gameObject.transform.position.x < 365 && Input.GetKeyDown(KeyCode.Return))
         {
             Application.LoadLevel("tutorial-level");
             doorAudio.PlayOneShot(door);
