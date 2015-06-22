@@ -8,7 +8,16 @@ public class NewJump : AbstractBehavior
 	public float longJumpMultiplier = 1.5f;
 	public bool canLongJump;
 	public bool isLongJumping;
-	
+    
+    public AudioClip jump;
+
+    AudioSource jumpSource;
+
+    void Start()
+    {
+        jumpSource = GetComponent<AudioSource>();
+    }
+
 	void Update () 
 	{
 		var canJump = inputState.GetButtonValue (inputButtons [0]);
@@ -35,13 +44,14 @@ public class NewJump : AbstractBehavior
 			body2d.velocity = new Vector2 (vel.x, jumpSpeed* longJumpMultiplier);
 			isLongJumping = true;
 			canLongJump = false;
+            
 		}
 	}
 	
 	protected virtual void OnJump()
 	{
 		var vel = body2d.velocity;
-		
+        jumpSource.PlayOneShot(jump);
 		body2d.velocity = new Vector2 (vel.x, jumpSpeed);
 		canLongJump = true;
 	}

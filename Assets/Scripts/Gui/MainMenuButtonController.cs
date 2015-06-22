@@ -24,4 +24,8 @@ public class MainMenuButtonController : MonoBehaviour {
     {
         Application.LoadLevel("second-level");
     }
+    public void LoadLevelSelect()
+    {
+        Application.LoadLevel("level-select");
+    }
 }

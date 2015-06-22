@@ -5,14 +5,14 @@ public class NewPlayerManager : MonoBehaviour
 {
 	
 	private InputState inputState;
-	private Walk walkBehavior;
+	private NewWalk walkBehavior;
 	private Animator animator;
 	private CollisionState collisionState;
 	
 	void Awake()
 	{
 		inputState = GetComponent<InputState> ();
-		walkBehavior = GetComponent<Walk> ();
+		walkBehavior = GetComponent<NewWalk> ();
 		animator = GetComponent<Animator> ();
 		collisionState = GetComponent<CollisionState> ();
 	}

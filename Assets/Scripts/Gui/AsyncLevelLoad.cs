@@ -8,6 +8,10 @@ public class AsyncLevelLoad : MonoBehaviour {
     {
         AsyncOperation async = Application.LoadLevelAsync("tutorial-level");
         yield return async;
+        async = Application.LoadLevelAsync("splash-screen");
+        yield return async;
+        async = Application.LoadLevelAsync("level-select");
+        yield return async;
         async = Application.LoadLevelAsync("second-level");
         yield return async;
         async = Application.LoadLevelAsync("main-menu");
@@ -18,11 +22,11 @@ public class AsyncLevelLoad : MonoBehaviour {
 	void Update () {
 	    if (Application.GetStreamProgressForLevel("tutorial-level") == 1 &&
             Application.GetStreamProgressForLevel("second-level") == 1 &&
-            Application.GetStreamProgressForLevel("main-menu") == 1)
+            Application.GetStreamProgressForLevel("main-menu") == 1 &&
+            Application.GetStreamProgressForLevel("splash-screen") == 1 &&
+            Application.GetStreamProgressForLevel("level-select") == 1)
         {
-            Application.LoadLevel("main-menu");
+            Application.LoadLevel("splash-screen");
         }
-        Debug.Log(Application.GetStreamProgressForLevel("tutorial-level"));
-
 	}
 }

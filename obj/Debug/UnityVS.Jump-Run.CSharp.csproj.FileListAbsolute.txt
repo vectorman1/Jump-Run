@@ -1,0 +1,13 @@
+C:\Users\Bobby\Documents\Jump-Run\Temp\UnityVS_bin\Debug\Assembly-CSharp.dll
+C:\Users\Bobby\Documents\Jump-Run\Temp\UnityVS_bin\Debug\Assembly-CSharp.pdb
+C:\Users\Bobby\Documents\Jump-Run\Temp\UnityVS_bin\Debug\UnityEditor.dll
+C:\Users\Bobby\Documents\Jump-Run\Temp\UnityVS_bin\Debug\UnityEditor.iOS.Extensions.Xcode.dll
+C:\Users\Bobby\Documents\Jump-Run\Temp\UnityVS_bin\Debug\UnityEngine.dll
+C:\Users\Bobby\Documents\Jump-Run\Temp\UnityVS_bin\Debug\UnityEngine.UI.dll
+C:\Users\Bobby\Documents\Jump-Run\Temp\UnityVS_bin\Debug\UnityEngine.xml
+C:\Users\Bobby\Documents\Jump-Run\Temp\UnityVS_bin\Debug\UnityEditor.xml
+C:\Users\Bobby\Documents\Jump-Run\Temp\UnityVS_bin\Debug\UnityEngine.UI.xml
+C:\Users\Bobby\Documents\Jump-Run\Temp\UnityVS_bin\Debug\UnityEditor.iOS.Extensions.Xcode.xml
+C:\Users\Bobby\Documents\Jump-Run\obj\Debug\UnityVS.Jump-Run.CSharp.csprojResolveAssemblyReference.cache
+C:\Users\Bobby\Documents\Jump-Run\obj\Debug\Assembly-CSharp.dll
+C:\Users\Bobby\Documents\Jump-Run\obj\Debug\Assembly-CSharp.pdb

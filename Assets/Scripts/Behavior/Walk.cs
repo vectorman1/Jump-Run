@@ -8,11 +8,15 @@ public class Walk : AbstractBehavior
 	public float sprintMultiplier = 1.5f;
 	public bool running = false;
 
-	void Start () 
-	{
-	
-	}
-	
+    public AudioClip sprint;
+
+    AudioSource sprintAudio;
+
+    void Start()
+    {
+        sprintAudio = GetComponent<AudioSource>();
+    }
+
 	// Update is called once per frame
 	void Update () 
 	{
@@ -29,11 +33,13 @@ public class Walk : AbstractBehavior
 			{
 				tmpSpeed *= sprintMultiplier;
 				running = true;
+                
 			}
 
 			var velX = tmpSpeed * (float)inputState.direction;
 
 			body2d.velocity = new Vector2(velX, body2d.velocity.y);
 		}
+
 	}
 }
